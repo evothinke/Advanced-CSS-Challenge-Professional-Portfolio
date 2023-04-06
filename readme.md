@@ -31,5 +31,5 @@ Building a website that will serve as a portfolio of the projects I have worked 
 - the website is responsive to different aspect ratios.
 
 
-Deployed website: https://evothinke.github.io/Advanced-CSS-Challenge-Professional-Portfolio/
+Deployed website: https://evothinke.github.io/Advanced-CSS-Challenge-Professional-Portfolio/ <br>
 Github Repository: https://github.com/evothinke/Advanced-CSS-Challenge-Professional-Portfolio
