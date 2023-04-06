@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>August Tornea, a showcase portfolio</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+
+    <body>
+       
+        <header>
+            <a href="./index.html"><div class="logo"></div></a>
+            <nav>
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact-me">Contact Me</a></li>
+                    <li><a href="" target="_blank">My Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Placing the top image slider below the header-->
+        <div class="slider"></div>
+
+        <!--Creating the about me section. This is where the anchor for about me will jump to when pressing on About me -->
+        <section id="about-me" class="about-me">
+
+            <!-- placing the h2 tag inside a div and naming it "anchor" so we can change the style later in CSS  -->
+            <div class="anchor"><h2>About Me</h2></div>
+            
+            
+                <p style="color:rgb(0, 0, 0);">Bacon ipsum dolor amet shankle ham boudin, ground round fatback pancetta ball 
+                    tip shank salami drumstick meatloaf strip steak. Salami ham hock bacon beef, 
+                    sausage flank prosciutto chuck landjaeger pork chop jerky turducken beef ribs. 
+                    Salami burgdoggen bacon pancetta prosciutto shank. Picanha kevin t-bone ground round.
+                    T-bone flank shoulder, tail cow capicola doner picanha ribeye. Jowl meatball cow swine chuck ribeye 
+                    venison sausage frankfurter pig beef ribs capicola kevin rump short loin. Swine leberkas landjaeger strip 
+                    steak, meatball salami spare ribs pastrami andouille ribeye picanha short ribs. Tenderloin rump sausage 
+                    kielbasa. Pork prosciutto frankfurter ribeye shank jerky, andouille swine capicola rump. Brisket shankle 
+                    pork loin frankfurter. Filet mignon pork belly chislic shoulder fatback sausage andouille.</p>
+            
+        </section>
+
+            <!--Creating the Portfolio section. This is where the anchor for Portfolio will jump to, when pressing on Portfolio -->
+
+        <section id="portfolio" class="portfolio">
+        <div class = "anchor"><h2>The Showcase</h2></div>
+
+            <!-- we need to showcase some projects here so we create a container that 
+                will encapsulate the projects so we can style it late in css -->
+
+            <div class = "portfolio-tiles-aligner">
+
+                <div class="portfolio-tiles">
+
+                    <a href="https://evothinke.github.io/project-one/"  target="_blank" class="project horiseon"><div class="project-name"><h3>Horiseon, a marketing agency.</h3></div></a>
+                    <a href="#"  class="project personal-showcase"><div class="project-name"><h3>Personal Showcase Website</h3><p>Still working on it :D</p></div></a>
+                    <a href="#"  class="project password-generator"><div class="project-name"><h3>Password Generator</h3><p>This one was fun!!!</p></div></a>
+                    <a href="#"  class="project future-project1"><div class="project-name"><h3>Future Project</h3></div></a>
+                    <a href="#"  class="project future-project2"><div class="project-name"><h3>Future Project</h3></div></a>
+                
+                </div>
+
+            </div>
+
+        </section>
+
+       
+        <footer id="contact-me">
+            
+            
+            <div class="anchor"><h2>Contact Me</h2></div>
+            
+            
+            <div class="contact">
+
+                <div id="contact-list">
+                    <ul>
+                        <li><a href="mailto:august.tornea@gmail.com">Email</a></li>
+                        <li><a href="https://github.com/evothinke" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li> 
+                        <li> <p>404-917-9909</p></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </footer>
+    </body>
+</html>
